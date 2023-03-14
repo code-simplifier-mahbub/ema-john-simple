@@ -14,7 +14,7 @@ const Product = ({product, handleAddToCard}) => {
    
     return (
         <div className='product-container'>
-            <img src={img} alt="" />
+            <img src={img} alt=" show-img" />
             <div className="product-info">
                 <p className='product-name'>{name}</p>
                 <p className='product-price'>Price: ${price}</p>
